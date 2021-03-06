@@ -1,3 +1,2 @@
-
-ggplot(CVO_CVE, aes(x=Temp, Tonnes)) + 
+ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width)) + 
   geom_point()
