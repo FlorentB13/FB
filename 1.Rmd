@@ -1,0 +1,13 @@
+---
+title: "FB"
+output: html_document
+```{r}
+library(readxl)
+CVO_CVE <- read_excel("C:/Users/Florent/OneDrive/MEL/Corrélation/CVO CVE.xlsx")
+View(CVO_CVE)
+library(ggplot2)
+ggplot(CVO_CVE, aes(Temp, Tonnes)) + geom_point()
+
+
+```
+
